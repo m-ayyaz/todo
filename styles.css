@@ -1,0 +1,40 @@
+body{
+    background: #352f5b;
+  }
+  .container{
+    max-width: 400px;
+  }
+  .todo-container{
+      display: flex;
+      font-size: 20px;
+    line-height: 32px;
+    font-family: "courier prime";
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px rgba(0, 207, 255, 1), 0 0 4px 4px rgb(238, 255, 0),
+      0 0 6px 6px rgb(255, 0, 247);
+    padding: 10px;
+    border: 4px solid #e11d74;
+    box-sizing:content-box;
+
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  .filtered{
+      display:none !important;
+  }
